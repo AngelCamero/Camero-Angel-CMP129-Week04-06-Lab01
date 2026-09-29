@@ -15,7 +15,7 @@ public class DriversLicenseExam {
         else {
             System.out.println("Invalid answer. please try again: ");
         }
-        System.out.print("Please enter your answer for question" + (i + 1) + ": ");
+        System.out.print("Please enter your answer for question " + (i + 1) + ": ");
         char student = scanner.next().charAt(0);
         answer = Character.toUpperCase(student);
         studentAnswers[i] = student;
